@@ -16,13 +16,13 @@ import SettingsPanel from './components/Settings';
 
 function App() {
   const navItems = [
-    { id: 'dashboard', label: 'Overview', icon: Home, path: '/dashboard' },
-    { id: 'lessons', label: 'Lessons', icon: BookOpen, path: '/lessons' },
-    { id: 'exercises', label: 'Exercises', icon: Brain, path: '/exercises' },
-    { id: 'progress', label: 'Progress', icon: Trophy, path: '/progress' },
-    { id: 'social', label: 'Community', icon: Users, path: '/social' },
-    { id: 'cultural', label: 'Culture', icon: Globe, path: '/cultural' },
-    { id: 'settings', label: 'Settings', icon: Settings, path: '/settings' },
+    { id: 'dashboard', label: 'Übersicht', icon: Home, path: '/dashboard' },
+    { id: 'lessons', label: 'Lektionen', icon: BookOpen, path: '/lessons' },
+    { id: 'exercises', label: 'Übungen', icon: Brain, path: '/exercises' },
+    { id: 'progress', label: 'Fortschritt', icon: Trophy, path: '/progress' },
+    { id: 'social', label: 'Gemeinschaft', icon: Users, path: '/social' },
+    { id: 'cultural', label: 'Kultur', icon: Globe, path: '/cultural' },
+    { id: 'settings', label: 'Einstellungen', icon: Settings, path: '/settings' },
   ];
 
   return (
